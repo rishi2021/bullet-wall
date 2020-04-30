@@ -16,7 +16,7 @@ function setup() {
   wall_deformation = (bullet_speed*bullet_weight*bullet_speed*0.5)/wall_thickness**3
   road = createSprite(800,395,1600,20)
   road.shapeColor = "black";
-  bullet.velocityX = 8
+  bullet.velocityX = 15
 }
 
 function draw() {
