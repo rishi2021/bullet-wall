@@ -13,7 +13,7 @@ function setup() {
   wall_thickness = Math.round(random(22,83));
   wall = createSprite(1570,200,60,400)
   wall.shapeColor = "grey";
-  wall_deformation = (bullet_speed*bullet_weight*bullet_speed*0.5)/(wall_thickness*wall_thickness*wall_thickness);
+  wall_deformation = (bullet_speed*bullet_weight*bullet_speed*0.5)/(wall_thickness**3);
   road = createSprite(800,395,1600,20)
   road.shapeColor = "black";
   bullet.velocityX = 15
